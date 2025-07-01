@@ -1,0 +1,16 @@
+# Core dependencies
+flask
+flask-cors
+ultralytics==8.3.0
+Pillow
+numpy
+
+# Torch (ensure it's compatible with your CUDA version if using GPU)
+torch>=2.0.0
+
+# Optional: Production & performance
+gunicorn                # WSGI server for production
+opencv-python-headless  # Optional: for image preprocessing (no GUI dependencies)
+
+# Optional: For debugging and logging
+python-dotenv           # Load environment variables from .env file
